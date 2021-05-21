@@ -12,7 +12,7 @@ body {
     #22c1c3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  min-height: 70vh;
+  min-height: 95vh;
   padding: 1rem;
   box-sizing: border-box;
   display: flex;
@@ -25,10 +25,9 @@ body {
 }
 
 .container {
-  width: 100%;
-  height: auto;
+  width: 60vw;
+  height: 75vh;
   min-height: 500px;
-  max-width: 500px;
   min-width: 250px;
   background: #e9ebeccf;
   /* background-image: radial-gradient(#979ca2 7.2%, transparent 0); */
@@ -104,4 +103,11 @@ li {
 
 .todoInput:focus {
   outline: none;
+}
+
+@media (min-width: 900px) and (orientation: landscape) {
+  /* CSS */
+  .container {
+    width: 35vw;
+  }
 }
