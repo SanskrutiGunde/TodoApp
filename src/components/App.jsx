@@ -10,7 +10,7 @@ function App() {
     setInputText(newValue);
   }
   function addItem() {
-    console.log(inputText);
+    //console.log(inputText);
     if (inputText.length > 0) {
       setItems((prevItems) => {
         return [...prevItems, inputText];
